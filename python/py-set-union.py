@@ -1,0 +1,5 @@
+e_num = int(input())
+e = set(map(int, input().split()))
+f_num = int(input())
+f = set(map(int, input().split()))
+print(len(e|f))
